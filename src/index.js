@@ -1,8 +1,7 @@
 import { render } from 'inferno';
-
-const message = "Hello world";
+import App from './components/App';
 
 render(
-    <MyComponent message={message} />,
+    <App />,
     document.getElementById("app")
 );
